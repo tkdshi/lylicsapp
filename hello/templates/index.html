@@ -9,7 +9,8 @@
     <div class="col-12">
       <h2>入力画面</h2>
       <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 30em"></textarea>
+        {% csrf_token %}
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 30em" name="lylictext">{{ lylictext }}</textarea>
         <label for="floatingTextarea2">楽曲の歌詞を入力してください</label>
       </div>
       <button type="submit" class="btn btn-primary">送信</button>
