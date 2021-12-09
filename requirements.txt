@@ -1,4 +1,4 @@
 django
 gunicorn
 django-heroku
-beautifulsoup4=4.9.1
+beautifulsoup4==4.9.1
