@@ -22,6 +22,3 @@ def db(request):
     greetings = Greeting.objects.all()
 
     return render(request, "db.html", {"greetings": greetings})
-
-class InquiryView(generic.FormView):
-    form_class = InquiryForm
