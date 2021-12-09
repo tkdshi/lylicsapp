@@ -4,5 +4,3 @@ django-heroku
 beautifulsoup4==4.9.1
 pandas
 jaconv==0.3
-mecab-python3
-unidic-lite
