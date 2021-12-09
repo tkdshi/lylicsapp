@@ -3,4 +3,4 @@ gunicorn
 django-heroku
 beautifulsoup4==4.9.1
 jaconv==0.3
-mecab==0.996.2
+mecab
